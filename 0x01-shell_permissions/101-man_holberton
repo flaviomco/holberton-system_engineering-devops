@@ -1,1 +1,18 @@
-#!/bin/bash
+.\"hay    que    insertar    quince    palabras    uno    dos    tres    cuatro    cinco    seis
+.\"siete    ocho    nueve    diez
+.TH man 2 "10 December 1945" "0.32" "eniac man page"
+.SH NAME
+.B eniac 
+- the first electronic general-purpose digital computer
+.SH SYNOPSIS
+eniac
+.SH DESCRIPTION
+Eniac was Turing-complete, and able to solve "a large class of numerical problems" through programming.
+.SH OPTIONS
+.B eniac
+does not take any options.
+.SH SEE ALSO
+.B BUGS
+No known bugs.
+.SH AUTHOR
+University of Pennsylvania.
