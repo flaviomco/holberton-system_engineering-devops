@@ -1,4 +1,6 @@
 # Turns off password authentication and uses holberton key
+include stdlib
+
 file_line { 'private key':
   path   => '/etc/ssh/ssh_config',
   line   => 'IdentityFile ~/.ssh/holberton',
