@@ -8,8 +8,8 @@ frontend load_balancer
     
 backend foo
     balance roundrobin
-    server foo1 34.73.8.171:80 check
-    server foo2 34.74.18.52:80 check
+    server foo1 104.196.61.116:80 check
+    server foo2 35.237.238.148:80 check
 "
 apt-get -y install software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-2.0
